@@ -1,7 +1,7 @@
 #include <stdio.h>	/* 氣泡排序法 Bubble Sort */
 #define SIZE 10
 
-void bubbleSort(int * const array, int size);			//指向非常數資料的常數指標	
+void bubbleSort(int *  array, int size);			//指向非常數資料的非常數指標	
 	
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
     }
     bubbleSort( a, 10);
     
-	puts("\n資料排序後");
+	puts("\n資料排序後\n");
 	for(i=0;i<=9;i++)
 	{
 		printf("%d ",a[i]);
